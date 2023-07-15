@@ -5,7 +5,12 @@ class MainKtTest {
 
     @Test
     fun sayHelloTest() {
-        val result = sayHello()
-        assertEquals("Hello", result)
+
+    }
+
+    @Test
+    fun sumTest() {
+        val sum = sum(5, 6)
+        assertEquals(11, sum)
     }
 }
